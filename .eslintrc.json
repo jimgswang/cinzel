@@ -1,0 +1,14 @@
+{
+    "extends": "airbnb-base",
+    "rules": {
+        "no-underscore-dangle": [2, { "allowAfterThis": true }],
+        "no-unused-expressions": ["error", { "allowShortCircuit": true  }]
+    },
+    "env": {
+        "node": true,
+        "mocha": true
+    },
+    "parserOptions": {
+        "sourceType": "script"
+    }
+}
